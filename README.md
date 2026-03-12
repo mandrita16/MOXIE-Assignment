@@ -54,14 +54,17 @@ The system produces:
 
 ## Install dependencies:
 
+"
 pip install -r requirements.txt
-
+"
 
 ## Run the script:
 
+"
 python communication_skills_extractor.py
-
+"
 
 Edit the `VIDEO_URLS` list in the script to analyze different videos.
+
 
 The results will be saved in the `results/` folder.
