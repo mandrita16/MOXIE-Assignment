@@ -1,8 +1,9 @@
 # Communication Skills Feature Extractor
 Machine Learning Assignment – Moxie Beauty
 
-
+```bash
 Python | NLP | Computer Vision | Feature Engineering
+```
 
 ## Problem
 The goal of this assignment is to build a system that can estimate the **communication skills of hair styling tutorial creators on YouTube**.  
@@ -38,11 +39,12 @@ These features together approximate communication effectiveness.
 
 ## Output
 The system produces:
-
+```bash
 - `sample_output.csv` – extracted features for each video
 - `sample_output.json` – structured output
 - `feature_report.xlsx` – formatted report
 - visual charts comparing communication scores
+```
 
 ## Example Visualization
 
@@ -53,18 +55,17 @@ The system produces:
 ## How to Run
 
 ## Install dependencies:
-
-"
+```bash
 pip install -r requirements.txt
-"
+```
 
 ## Run the script:
-
-"
+```bash
 python communication_skills_extractor.py
-"
+```
 
-Edit the `VIDEO_URLS` list in the script to analyze different videos.
+## Edit the `VIDEO_URLS` list in the script to analyze different videos.
 
 
 The results will be saved in the `results/` folder.
+
