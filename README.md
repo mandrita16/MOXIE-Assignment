@@ -43,7 +43,7 @@ The system produces:
 - `sample_output.csv` – extracted features for each video
 - `sample_output.json` – structured output
 - `feature_report.xlsx` – formatted report
-- visual charts comparing communication scores
+- `visual charts` - comparing communication scores
 ```
 
 ## Example Visualization
