@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Moxie Beauty — Communication Skills Extractor
+# Requirements
+# Install: pip install -r requirements.txt
+# Python:  3.9+
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core data
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine learning / NLP
+scikit-learn>=1.3.0          # TF-IDF vectoriser, future model training
+
+# Computer vision (face detection, frame analysis)
+opencv-python>=4.8.0         # cv2 — Haar cascade face detection
+
+# Excel output (styled report)
+openpyxl>=3.1.0
+
+# Charts
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Optional (enhances NLP quality) ──────────────────────────────────────────
+# nltk>=3.8.0                # Sentence tokenisation (stdlib fallback included)
+# textstat>=0.7.3            # Additional readability metrics
