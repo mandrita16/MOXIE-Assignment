@@ -20,6 +20,22 @@ This solution therefore uses a **multi-modal approach**:
 
 The extracted features are normalized to a **0–10 scale** and combined into a final **communication score**.
 
+##Project Structure 
+```bash
+moxie-ml-assignment/
+│
+├── communication_skills_extractor.py      # Main Python script for feature extraction
+├── requirements.txt                       # List of dependencies required to run the project
+├── Mandrita_Dasgupta_Moxie_Assignment_Brief.pdf   # Brief explanation document
+│
+├── results/
+│   ├── sample_output.csv                  # Extracted features in CSV format
+│   ├── sample_output.json                 # Extracted features in JSON format
+│   ├── feature_report.xlsx                # Formatted Excel report
+│   ├── radar_chart.png                    # Visualization of feature comparison
+│   └── score_bar.png                      # Bar chart of communication scores
+```
+
 ## Extracted Features
 
 ### Linguistic Features
