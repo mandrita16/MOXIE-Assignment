@@ -20,7 +20,7 @@ This solution therefore uses a **multi-modal approach**:
 
 The extracted features are normalized to a **0–10 scale** and combined into a final **communication score**.
 
-##Project Structure 
+## Project Structure 
 ```bash
 moxie-ml-assignment/
 │
