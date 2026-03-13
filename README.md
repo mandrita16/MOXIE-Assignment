@@ -8,6 +8,7 @@ Python | NLP | Computer Vision | Feature Engineering
 ## Problem
 The goal of this assignment is to build a system that can estimate the **communication skills of hair styling tutorial creators on YouTube**.  
 The system processes tutorial videos and extracts measurable features that can act as proxies for communication effectiveness.
+I designed a feature extraction pipeline that analyzes video transcripts and visual signals to measure aspects like speech clarity, filler word usage, instructional language, and visual engagement.
 
 ## Approach
 Communication quality in tutorial videos depends on both **what the creator says** and **how they present it**.
